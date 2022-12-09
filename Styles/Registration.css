@@ -1,3 +1,9 @@
+@font-face{
+    font-family: "Opensans";
+    src: url('../res/Font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+    font-weight: 600;
+    
+}
 .body{
     display: flex;
     justify-content: center;
@@ -16,20 +22,52 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color:#F9F1F5;
     border: 1px solid #E55E54;
     height:85%;
-    width:90%
+    width:90%;
+    font-family: 'Opensans';
+    
+}
+.ffdiv{
+    display: flex;
+    flex-direction: column;
+}
+.fdiv p{
+    display:flex;
+    justify-content:center;
+    margin-top: 50px;
+    margin-bottom:30px;
 }
 .fdiv{
-    margin-top: 150px;
+    display: flex;
+    flex-direction:column ;
+    gap: 50px;
+    flex: 1;
 }
 .div{
     display:flex;
     gap:20px;
     margin-bottom: 10px;
 }
-
 #Email{
     width: 352px;
+}
+button{
+    background:linear-gradient(to right, #e0e0e25d, #b7b2f86c, #ff938bdc, #E14236) ;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 4px #00000030;
+    font-family:'Opensans';
+    margin-top: 40px;
+    width:60%;
+    height: 30px;
+    font-size: 15px;
+    align-self: center;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.4s all;
 }

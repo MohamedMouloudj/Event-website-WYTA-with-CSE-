@@ -1,0 +1,60 @@
+@font-face{
+    font-family: "Opensans";
+    src: url('../res/Font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+    font-weight: bold;
+    
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    height: 80px;
+    align-items: center;
+    background-color:#F9F1F5;
+}
+
+.logo{
+    width: 80px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap:50px;
+    margin:0 30px 0 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family:"Opensans";
+    color:#E14236;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.add::after{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 9vh;
+    background-color: #E14236;
+    transition: 300ms;
+    animation: appear 0.3s linear;
+}
+
+@keyframes appear {
+from{
+    width: 0;
+}
+to{
+    width: 6%;
+}
+
+}

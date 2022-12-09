@@ -1,0 +1,59 @@
+@font-face{
+    font-family: "pompier";
+    src:url('../res/Font/Pompiere-Regular.ttf');
+    font-weight: lighter;
+}
+.colored{
+    background-image: url('../res/1\ \(3\).png'); 
+    background-repeat: no-repeat;
+    background-position: 15%  ;
+    height:200px ;
+}
+.colored h1{
+    margin: 0;
+    padding-top: 75px;
+    font-family: "pompier";
+    letter-spacing: 15px;
+    font-size: 60px;
+}
+
+.cntnt{
+    box-shadow: 0 0 7px #787878ad;
+    display: flex;
+    justify-content: space-between;
+    height:max-content;
+    flex-wrap: nowrap;
+}
+.cntnt .p{
+    text-align-last: left;
+    width:50vw;
+    margin-left: 35px;
+    font-family: "Opensans";
+    line-height: 27px;
+    text-align: justify;
+}
+.cntnt h4{
+    text-align-last: left;
+    width:fit-content;
+    margin-left: 35px;
+    font-family: "Opensans";
+    text-decoration:underline;
+}
+.shape1{
+    height: auto;
+    width: calc(40vw - 50px);
+    background-color: #E14236;
+    background-image: url('../res/Screenshot\ 2022-12-09\ 092405.png');
+    background-repeat: no-repeat;
+    background-size:140px 70px ;
+    background-position: 180px -200px;
+    background-attachment:local;
+    border-left: 100px solid white;
+    border-top: 322px solid transparent;
+}
+.p1{
+    font-family: "Opensans" ;
+    color:#132347;
+    font-size: 30px;
+    text-align: center;
+}
